@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1, h2, h3, li, ul{
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    text-align: left;
+}
+
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 1.5em;
+}
+h3{
+    font-size: 1em;
+}
+body{
+    text-align:  center;
+}
+#page{
+    width: 960px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header{
+    background-color: #FFFBB9;
+    border: solid #999999;
+    padding: 20px;
+    
+}
+#nav{
+    background-color: #CCCCCC;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+li{
+    display: inline;
+    list-style: none;
+    padding: 5px;
+    font-size: 14px;
+ }
+li > a{
+    cursor:  default;
+    text-decoration: none;
+    color: blue;
+}
+li > a:hover{
+    color: white;
+}
+a:active{
+    color: black;
+}
+#content{
+    float: left;
+    width: 660px;
+    margin: 20px;
+}
+#aside{
+    float: left;
+    width: 220px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 20px;
+    background-color: #CCCCCC;
+    text-align: left;
+}
+
+#footer{
+    clear: both;
+    border-top: solid 2px #999999;
+    padding: 20px;
+    text-align: center;
+  
+}
+.article {  
+    background:  #FFFBCC;  
+    border:  1px  solid  #999999; 
+    padding: 20px; 
+    margin-bottom: 15px; 
+    text-align: left;
+}
+.article_header { 
+    border-bottom: 1px solid #999999;
+}
+.time { 
+    color: #999999; 
+    text-align: left;
+}
+.article_footer { 
+    text-align: right; 
+}
+.figure { 
+    border: 1px double #999999; 
+    padding: 5px; 
+}
+.figcaption{
+    font-size: 10px;
+    font-style: italic;
+    font-family: Verdana, sans-serif;
+}
+
